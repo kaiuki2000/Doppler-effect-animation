@@ -1,0 +1,7 @@
+Incluí 2 ficheiros pdf:
+- Relatório propriamente dito (2 págs. + 2 págs. com imagens (resultados));
+- Manual de instruções do programa, caso seja necessário.
+
+Incluí ainda as instruções de compilação no outro ficheiro .txt.
+
+Afonso Sequeira Azenha nº 96502

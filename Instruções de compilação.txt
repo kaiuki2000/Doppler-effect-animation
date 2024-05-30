@@ -1,0 +1,20 @@
+Caso não tenha o gtk instalado:
+1- Abrir terminal (menu principal -> pesquisar 'terminal');
+2- Introduzir o comando:
+
+sudo apt-get install -y libgtk2.0-dev libgtk-3-dev
+
+(É necessário instalar estes ficheiros para compilar com gtk).
+
+
+Após instalar o gtk:
+1- Descarregar o ficheiro com o código (OOteste5.c);
+2- No terminal, mudar para a diretoria onde guardou o ficheiro (se guardar no ambiente de trabalho, fazer cd Desktop);
+3- Compilar com:
+
+gcc `pkg-config --cflags gtk+-3.0` -o OOteste5 OOteste5.c `pkg-config --libs gtk+-3.0` -lm
+
+4- Para executar o programa fazer: (tem que estar na diretoria onde fez a compilação. Se seguiu os passos acima, não é preciso fazer nada: já está na diretoria certa)
+
+./OOteste5
+
